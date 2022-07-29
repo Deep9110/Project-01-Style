@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0; 
+   
+}
+
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 4rem;
+    font-family: "Orbitron", sans-serif;
+}
+
+.list{
+    display: flex;
+    padding-left: 13rem;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+.list-item{
+    padding-left: 3rem;
+}
+
+.list-item:nth-child(1){
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+
+.button-group{
+    display: flex;
+    padding-left: 10rem;
+    
+}
+
+button{
+    padding-top: 0.2rem;
+    text-align: center;
+    font-size: 22px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.nav-button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: white;
+}
+.nav-button:hover{
+    background: #1f1f1f;
+    color: white;
+}
+
+.search-icon{
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+.hero-container{
+    display: flex;
+    position: relative;
+    margin: 4rem 4rem 0rem 4rem;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4rem;
+    
+}
+
+.hero-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    margin: 7rem 2rem 2rem 1rem;
+}
+
+.hero-description{
+    font-family: "Poppins", Helvetica;
+    width: 70%;
+    text-align: center;
+    color: rgb(76, 76, 76);
+    margin-bottom: 5rem;
+}
+.button-join,.button-email{
+    font-family: "Orbitron", sans-serif;
+    margin-top: 5rem;
+}
+.button-email{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.button-email:hover{
+    background: #1f1f1f;
+    color: white;
+}
+
+.button-join{
+    margin-left: 1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    background:#1f1f1f;
+    color: white;
+}
+.button-join:hover{
+    background: white;
+    color: black;
+}
+.contact-heading{
+    padding-top: 10rem;
+    padding-left: 5.3rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(76, 76, 76);
+}
+.icons{
+    padding-top: 1.5rem;
+}
+img{
+    padding-left: 1rem;
+}
+
+.square{
+    position: absolute;
+    z-index: -1;
+    bottom: -0.2px;
+    padding-left: 13rem;
+}
+.star ,.star2, .globe{
+    position: absolute;
+}
+
+.globe{
+    left: 55%;
+}
+
+.star{
+    
+    right: 10%;
+}
+.star2{
+    bottom: 2px;
+    left: 50%;
+}
