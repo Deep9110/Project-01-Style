@@ -6,7 +6,7 @@
 > Here's You can see Live Deployed  ~  ![Project 10](https://img.shields.io/badge/Project-10-yellow)     
 
 
-![Completed Website](Completed.png)
+![Completed Website](assets/Completed.png)
 
 ## What I learned from this Project?
 
